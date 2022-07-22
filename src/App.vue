@@ -1,9 +1,11 @@
 <script setup lang="ts">
-import Index from './pages/index/index.vue'
+import { onUpdated } from 'vue';
 </script>
 
 <template>
-  <Index />
+  <div>
+    <RouterView></RouterView>
+  </div>
 </template>
 
 <style scoped>

@@ -1,5 +1,4 @@
 <template>
-<span>dd</span>
 <!-- <a-drawer :visible="visible" placement="right" @ok="handleOk" @cancel="handleCancel" unmountOnClose>
     <template #title>
       Title
@@ -8,8 +7,5 @@
   </a-drawer> -->
 </template>
 <script lang="ts" setup>
-import {Prop} from 'vue';
-const props = null;
-console.log(props);
 
 </script>
